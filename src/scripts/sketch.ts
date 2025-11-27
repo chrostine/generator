@@ -23,7 +23,7 @@ const draw = (p5: typeof P5.prototype): void => {
 		const x = circleMovement * p5.sin(currentFrame * randomSpeed) + p5.random(-centerX, centerX);
 		const y = circleMovement * p5.cos(currentFrame * randomSpeed) + p5.random(-centerY, centerY);
 
-		p5.fill(p5.random(0, 255), p5.random(0, 255), p5.random(0, 255));
+		p5.fill(p5.random(50, 255), p5.random(0, 50), p5.random(20, 255));
 		p5.circle(centerX + x, centerY + y, circleRadius);
 	}
 };

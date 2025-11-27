@@ -30,9 +30,10 @@ const controls = createMutable({
 	imageFormat: "png" as (typeof IMAGE_FORMATS)[number],
 
 	// Sketch
-	circleRadius: 16,
-	circleSpeed: 0.071,
-	circleMovement: 100,
+	circleRadius: 25,
+	circleSpeed: 0.01,
+	circleMovement: 500,
+	circleAntal: 300,
 });
 
 export { controls, internal };

@@ -38,6 +38,17 @@ const Sketch: VoidComponent = () => (
 				controls.circleMovement = value;
 			}}
 		/>
+
+		<RangeInput
+			label="circle antal"
+			min={1}
+			max={1000}
+			step={1}
+			value={controls.circleAntal}
+			onChange={(value) => {
+				controls.circleAntal = value;
+			}}
+		/>
 	</Folder>
 );
 
